@@ -1,0 +1,314 @@
+{
+  "title": "Agenda eventi culturali",
+  "description": "Prototipo navigabile per consultare gli eventi della biblioteca, filtrare l’agenda e gestire le iscrizioni e i posti disponibili. Dati e organizzazioni sono inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo degli eventi e delle iscrizioni, con collegamenti all’agenda e alla gestione delle prenotazioni.",
+      "metrics": [
+        {
+          "label": "Eventi in programma",
+          "value": "12"
+        },
+        {
+          "label": "Iscrizioni totali",
+          "value": "186"
+        },
+        {
+          "label": "Posti ancora disponibili",
+          "value": "74"
+        },
+        {
+          "label": "Eventi al completo",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Data",
+        "Luogo",
+        "Iscritti",
+        "Posti rimasti"
+      ],
+      "rows": [
+        [
+          "Racconti di Nubi",
+          "12/06/2026",
+          "Sala Lume",
+          "18",
+          "7"
+        ],
+        [
+          "Laboratorio di carta Vela",
+          "14/06/2026",
+          "Officina Lumo",
+          "9",
+          "11"
+        ],
+        [
+          "Musica tra le pagine",
+          "18/06/2026",
+          "Sala Lume",
+          "24",
+          "0"
+        ],
+        [
+          "Atlante delle stelle quiete",
+          "21/06/2026",
+          "Terrazza Nubi",
+          "16",
+          "4"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "agenda-eventi",
+      "title": "Agenda eventi",
+      "description": "Consulta e filtra gli eventi culturali della biblioteca per titolo, periodo e spazio. Ogni riga mostra iscritti e posti rimasti.",
+      "metrics": [
+        {
+          "label": "Eventi elencati",
+          "value": "12"
+        },
+        {
+          "label": "Posti rimasti",
+          "value": "74"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Data",
+        "Luogo",
+        "Categoria",
+        "Capienza",
+        "Iscritti",
+        "Posti rimasti"
+      ],
+      "rows": [
+        [
+          "Racconti di Nubi",
+          "12/06/2026",
+          "Sala Lume",
+          "Lettura",
+          "25",
+          "18",
+          "7"
+        ],
+        [
+          "Laboratorio di carta Vela",
+          "14/06/2026",
+          "Officina Lumo",
+          "Laboratorio",
+          "20",
+          "9",
+          "11"
+        ],
+        [
+          "Musica tra le pagine",
+          "18/06/2026",
+          "Sala Lume",
+          "Musica",
+          "24",
+          "24",
+          "0"
+        ],
+        [
+          "Atlante delle stelle quiete",
+          "21/06/2026",
+          "Terrazza Nubi",
+          "Incontro",
+          "20",
+          "16",
+          "4"
+        ],
+        [
+          "Piccolo teatro delle ombre",
+          "23/06/2026",
+          "Sala Vela",
+          "Spettacolo",
+          "30",
+          "22",
+          "8"
+        ],
+        [
+          "Erbario immaginario",
+          "26/06/2026",
+          "Officina Lumo",
+          "Laboratorio",
+          "18",
+          "11",
+          "7"
+        ],
+        [
+          "Poesie in controluce",
+          "29/06/2026",
+          "Sala Lume",
+          "Lettura",
+          "22",
+          "13",
+          "9"
+        ],
+        [
+          "Mappe per mondi inventati",
+          "02/07/2026",
+          "Terrazza Nubi",
+          "Incontro",
+          "16",
+          "8",
+          "8"
+        ],
+        [
+          "Coro delle conchiglie",
+          "05/07/2026",
+          "Sala Vela",
+          "Musica",
+          "28",
+          "19",
+          "9"
+        ],
+        [
+          "Storie dal giardino blu",
+          "08/07/2026",
+          "Sala Lume",
+          "Lettura",
+          "20",
+          "20",
+          "0"
+        ],
+        [
+          "Taccuini di viaggio immaginario",
+          "11/07/2026",
+          "Officina Lumo",
+          "Laboratorio",
+          "15",
+          "7",
+          "8"
+        ],
+        [
+          "Cinema di carta",
+          "14/07/2026",
+          "Sala Vela",
+          "Proiezione",
+          "26",
+          "17",
+          "9"
+        ]
+      ],
+      "form": [
+        "Evento",
+        "Data",
+        "Luogo",
+        "Categoria",
+        "Capienza"
+      ]
+    },
+    {
+      "id": "iscrizioni",
+      "title": "Iscrizioni",
+      "description": "Gestisci le prenotazioni agli eventi e controlla lo stato di ciascuna iscrizione. I dati dei partecipanti sono rappresentati con nomi di fantasia.",
+      "metrics": [
+        {
+          "label": "Iscrizioni attive",
+          "value": "186"
+        },
+        {
+          "label": "In attesa",
+          "value": "8"
+        },
+        {
+          "label": "Annullate",
+          "value": "5"
+        }
+      ],
+      "columns": [
+        "Partecipante",
+        "Evento",
+        "Data",
+        "Posti richiesti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo Riva",
+          "Racconti di Nubi",
+          "12/06/2026",
+          "1",
+          "Confermata"
+        ],
+        [
+          "Vela Mirto",
+          "Laboratorio di carta Vela",
+          "14/06/2026",
+          "2",
+          "Confermata"
+        ],
+        [
+          "Nubi Salvia",
+          "Musica tra le pagine",
+          "18/06/2026",
+          "1",
+          "In attesa"
+        ],
+        [
+          "Lume Corallo",
+          "Atlante delle stelle quiete",
+          "21/06/2026",
+          "1",
+          "Confermata"
+        ],
+        [
+          "Vela Ambra",
+          "Piccolo teatro delle ombre",
+          "23/06/2026",
+          "3",
+          "Confermata"
+        ],
+        [
+          "Nubi Cedro",
+          "Erbario immaginario",
+          "26/06/2026",
+          "1",
+          "Annullata"
+        ],
+        [
+          "Lumo Perla",
+          "Poesie in controluce",
+          "29/06/2026",
+          "2",
+          "Confermata"
+        ],
+        [
+          "Mirto Lume",
+          "Mappe per mondi inventati",
+          "02/07/2026",
+          "1",
+          "In attesa"
+        ],
+        [
+          "Salvia Vela",
+          "Coro delle conchiglie",
+          "05/07/2026",
+          "2",
+          "Confermata"
+        ],
+        [
+          "Corallo Nubi",
+          "Storie dal giardino blu",
+          "08/07/2026",
+          "1",
+          "Confermata"
+        ]
+      ],
+      "form": [
+        "Partecipante",
+        "Evento",
+        "Data",
+        "Posti richiesti",
+        "Stato"
+      ]
+    }
+  ]
+}
